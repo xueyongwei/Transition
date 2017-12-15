@@ -17,11 +17,11 @@
 		DE3ADECF1FE287CF00A2F035 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3ADECE1FE287CF00A2F035 /* AViewController.m */; };
 		DE5E86A81FE368D0007185DB /* XYWCrossDissolveAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5E86A71FE368D0007185DB /* XYWCrossDissolveAnimator.m */; };
 		DE5E86AE1FE371C0007185DB /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5E86AD1FE371C0007185DB /* DetailViewController.m */; };
-		DE5E86B11FE37552007185DB /* XYWCrossDissolveDisMissAniator.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5E86B01FE37552007185DB /* XYWCrossDissolveDisMissAniator.m */; };
 		DE5E86B51FE38142007185DB /* XYWInterActionranstionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5E86B41FE38142007185DB /* XYWInterActionranstionDelegate.m */; };
 		DE5E86B81FE38216007185DB /* XYWInterActionTranstionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5E86B71FE38216007185DB /* XYWInterActionTranstionAnimator.m */; };
 		DE5E86BB1FE38289007185DB /* XYWInterActionTranstion.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5E86BA1FE38289007185DB /* XYWInterActionTranstion.m */; };
 		DE5E86BF1FE3C47D007185DB /* XYWPresentioController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5E86BE1FE3C47D007185DB /* XYWPresentioController.m */; };
+		DE5E86C21FE3D1F4007185DB /* XYWCustomAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5E86C11FE3D1F4007185DB /* XYWCustomAnimator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,8 +43,6 @@
 		DE5E86A71FE368D0007185DB /* XYWCrossDissolveAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYWCrossDissolveAnimator.m; sourceTree = "<group>"; };
 		DE5E86AC1FE371C0007185DB /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		DE5E86AD1FE371C0007185DB /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		DE5E86AF1FE37552007185DB /* XYWCrossDissolveDisMissAniator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYWCrossDissolveDisMissAniator.h; sourceTree = "<group>"; };
-		DE5E86B01FE37552007185DB /* XYWCrossDissolveDisMissAniator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYWCrossDissolveDisMissAniator.m; sourceTree = "<group>"; };
 		DE5E86B31FE38142007185DB /* XYWInterActionranstionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYWInterActionranstionDelegate.h; sourceTree = "<group>"; };
 		DE5E86B41FE38142007185DB /* XYWInterActionranstionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYWInterActionranstionDelegate.m; sourceTree = "<group>"; };
 		DE5E86B61FE38216007185DB /* XYWInterActionTranstionAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYWInterActionTranstionAnimator.h; sourceTree = "<group>"; };
@@ -53,6 +51,8 @@
 		DE5E86BA1FE38289007185DB /* XYWInterActionTranstion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYWInterActionTranstion.m; sourceTree = "<group>"; };
 		DE5E86BD1FE3C47D007185DB /* XYWPresentioController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYWPresentioController.h; sourceTree = "<group>"; };
 		DE5E86BE1FE3C47D007185DB /* XYWPresentioController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYWPresentioController.m; sourceTree = "<group>"; };
+		DE5E86C01FE3D1F4007185DB /* XYWCustomAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYWCustomAnimator.h; sourceTree = "<group>"; };
+		DE5E86C11FE3D1F4007185DB /* XYWCustomAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYWCustomAnimator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,8 +112,6 @@
 			children = (
 				DE5E86A61FE368D0007185DB /* XYWCrossDissolveAnimator.h */,
 				DE5E86A71FE368D0007185DB /* XYWCrossDissolveAnimator.m */,
-				DE5E86AF1FE37552007185DB /* XYWCrossDissolveDisMissAniator.h */,
-				DE5E86B01FE37552007185DB /* XYWCrossDissolveDisMissAniator.m */,
 			);
 			path = CrossDissolve;
 			sourceTree = "<group>";
@@ -136,6 +134,8 @@
 			children = (
 				DE5E86BD1FE3C47D007185DB /* XYWPresentioController.h */,
 				DE5E86BE1FE3C47D007185DB /* XYWPresentioController.m */,
+				DE5E86C01FE3D1F4007185DB /* XYWCustomAnimator.h */,
+				DE5E86C11FE3D1F4007185DB /* XYWCustomAnimator.m */,
 			);
 			path = CustomPresition;
 			sourceTree = "<group>";
@@ -211,13 +211,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE5E86C21FE3D1F4007185DB /* XYWCustomAnimator.m in Sources */,
 				DE3ADEB91FE2813100A2F035 /* ViewController.m in Sources */,
 				DE5E86A81FE368D0007185DB /* XYWCrossDissolveAnimator.m in Sources */,
 				DE3ADECF1FE287CF00A2F035 /* AViewController.m in Sources */,
 				DE5E86B81FE38216007185DB /* XYWInterActionTranstionAnimator.m in Sources */,
 				DE5E86AE1FE371C0007185DB /* DetailViewController.m in Sources */,
 				DE3ADECC1FE285B000A2F035 /* BViewController.m in Sources */,
-				DE5E86B11FE37552007185DB /* XYWCrossDissolveDisMissAniator.m in Sources */,
 				DE3ADEC41FE2813100A2F035 /* main.m in Sources */,
 				DE5E86BF1FE3C47D007185DB /* XYWPresentioController.m in Sources */,
 				DE5E86B51FE38142007185DB /* XYWInterActionranstionDelegate.m in Sources */,

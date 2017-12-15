@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface XYWPresentioController : UIPresentationController <UIViewControllerTransitioningDelegate>
-
+-(id)initWithPresentedViewController:(UIViewController *)presentedViewController presentingViewController:(UIViewController *)presentingViewController;
 @end

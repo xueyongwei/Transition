@@ -8,19 +8,24 @@
 
 #import "BViewController.h"
 #import "XYWCrossDissolveAnimator.h"
-#import "XYWCrossDissolveDisMissAniator.h"
+
 #import "DetailViewController.h"
+
+#import "XYWPresentioController.h"
 
 @interface BViewController ()<UIViewControllerTransitioningDelegate>
 
 @end
 
 @implementation BViewController
-
+{
+    XYWPresentioController *_presentionController;
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor redColor];
     [self custom];
+    
     // Do any additional setup after loading the view.
 }
 -(void)viewWillAppear:(BOOL)animated
@@ -59,8 +64,15 @@
     halfbt.frame = CGRectMake(40, 140, 100, 44);
     [halfbt setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [halfbt setTitle:@"half present" forState:UIControlStateNormal];
-    [halfbt addTarget:self action:@selector(alert) forControlEvents:UIControlEventTouchUpInside];
+    [halfbt addTarget:self action:@selector(half) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:halfbt];
+}
+-(void)half{
+    UIViewController *bvc = [DetailViewController new];
+    _presentionController = [[XYWPresentioController alloc]initWithPresentedViewController:bvc presentingViewController:self];
+    bvc.transitioningDelegate = _presentionController;
+    [self presentViewController:bvc animated:YES completion:nil];
+    
 }
 -(void)alert{
     UIViewController *bvc = [DetailViewController new];

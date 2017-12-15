@@ -1,5 +1,5 @@
 //
-//  XYWCrossDissolveDisMissAniator.h
+//  XYWCustomAnimator.h
 //  Transition
 //
 //  Created by 西方 on 2017/12/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface XYWCrossDissolveDisMissAniator : NSObject <UIViewControllerAnimatedTransitioning>
+@interface XYWCustomAnimator : NSObject <UIViewControllerAnimatedTransitioning>
 
 @end
